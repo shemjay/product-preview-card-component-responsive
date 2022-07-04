@@ -15,7 +15,7 @@
     box-sizing: border-box;
     font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
-    background-color: --Cream;
+    background-color: var(--Cream);
 }
 
 :root {
@@ -24,4 +24,29 @@
 --Very-dark-blue: hsl(212, 21%, 14%);
 --Dark-grayish-blue: hsl(228, 12%, 48%);
 --White: hsl(0, 0%, 100%);
+}
+
+.container {
+    height: 100vh;
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    
+    outline: 1px solid red;
+    object-fit: contain;
+}
+
+.img-container img {
+    min-width: 100%;
+}
+
+.content-container {
+
 }
