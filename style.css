@@ -29,24 +29,34 @@
 .container {
     height: 100vh;
     max-width: 100%;
-}
-
-.flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    width: 40%;
+    height: 60%;
+}
+
 .img-container {
-    
     outline: 1px solid red;
     object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .img-container img {
-    min-width: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .content-container {
-
+    outline: 1px solid red;
+    height: 100%;
+    width: 100%;
 }
