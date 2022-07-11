@@ -207,10 +207,18 @@
         overflow: hidden;
     }
 
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+    }
+
     .content-container {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: right;
         flex-direction: column;
     }
 
@@ -252,7 +260,8 @@
 
  
 
-/* @media screen and (max-width: 992px) {
+/* 
+@media screen and (max-width: 992px) {
     
 }
 
